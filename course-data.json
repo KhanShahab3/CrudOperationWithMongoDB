@@ -1,0 +1,182 @@
+[
+  {
+    
+    "name": "Angular Course",
+    "author": "Smith",
+    "tags": ["angular", "frontend"],
+    "isPublished": true,
+    "date": { "$date": "2025-08-24T14:25:12.996Z" },
+    "__v": 0
+  },
+  {
+   
+    "name": "React Course",
+    "author": "Johnson",
+    "tags": ["react", "frontend"],
+    "isPublished": true,
+    "date": { "$date": "2025-08-20T10:15:30.123Z" },
+    "__v": 0
+  },
+  {
+    
+    "name": "Node.js Course",
+    "author": "Williams",
+    "tags": ["nodejs", "backend"],
+    "isPublished": false,
+    "date": { "$date": "2025-08-10T08:45:55.456Z" },
+    "__v": 0
+  },
+  {
+   
+    "name": "Express.js Course",
+    "author": "Brown",
+    "tags": ["express", "backend"],
+    "isPublished": true,
+    "date": { "$date": "2025-07-29T17:20:40.789Z" },
+    "__v": 0
+  },
+  {
+    
+    "name": "MongoDB Course",
+    "author": "Davis",
+    "tags": ["mongodb", "database"],
+    "isPublished": true,
+    "date": { "$date": "2025-08-01T12:05:10.000Z" },
+    "__v": 0
+  },
+  {
+    
+    "name": "Python Basics",
+    "author": "Miller",
+    "tags": ["python", "beginner"],
+    "isPublished": true,
+    "date": { "$date": "2025-08-15T09:45:20.321Z" },
+    "__v": 0
+  },
+  {
+   
+    "name": "Advanced Python",
+    "author": "Wilson",
+    "tags": ["python", "advanced"],
+    "isPublished": false,
+    "date": { "$date": "2025-07-18T11:30:44.789Z" },
+    "__v": 0
+  },
+  {
+   
+    "name": "Java Fundamentals",
+    "author": "Moore",
+    "tags": ["java", "backend"],
+    "isPublished": true,
+    "date": { "$date": "2025-08-05T14:50:30.456Z" },
+    "__v": 0
+  },
+  {
+    
+    "name": "Spring Boot",
+    "author": "Taylor",
+    "tags": ["spring", "backend"],
+    "isPublished": false,
+    "date": { "$date": "2025-07-28T16:40:12.654Z" },
+    "__v": 0
+  },
+  {
+    
+    "name": "C# for Beginners",
+    "author": "Anderson",
+    "tags": ["csharp", "backend"],
+    "isPublished": true,
+    "date": { "$date": "2025-08-12T19:20:00.111Z" },
+    "__v": 0
+  },
+  {
+    
+    "name": "ASP.NET Core",
+    "author": "Thomas",
+    "tags": ["dotnet", "backend"],
+    "isPublished": true,
+    "date": { "$date": "2025-08-02T13:25:15.999Z" },
+    "__v": 0
+  },
+  {
+    
+    "name": "Vue.js Course",
+    "author": "Jackson",
+    "tags": ["vue", "frontend"],
+    "isPublished": true,
+    "date": { "$date": "2025-07-30T10:10:05.222Z" },
+    "__v": 0
+  },
+  {
+   
+    "name": "React Native",
+    "author": "White",
+    "tags": ["react", "mobile"],
+    "isPublished": false,
+    "date": { "$date": "2025-08-14T21:40:55.876Z" },
+    "__v": 0
+  },
+  {
+    
+    "name": "Flutter Development",
+    "author": "Harris",
+    "tags": ["flutter", "mobile"],
+    "isPublished": true,
+    "date": { "$date": "2025-07-25T09:15:22.555Z" },
+    "__v": 0
+  },
+  {
+    
+    "name": "Kotlin for Android",
+    "author": "Martin",
+    "tags": ["kotlin", "mobile"],
+    "isPublished": true,
+    "date": { "$date": "2025-08-18T18:05:33.999Z" },
+    "__v": 0
+  },
+  {
+   
+    "name": "Swift iOS Development",
+    "author": "Thompson",
+    "tags": ["swift", "ios"],
+    "isPublished": true,
+    "date": { "$date": "2025-07-22T12:22:44.654Z" },
+    "__v": 0
+  },
+  {
+  
+    "name": "PHP & Laravel",
+    "author": "Garcia",
+    "tags": ["php", "backend"],
+    "isPublished": false,
+    "date": { "$date": "2025-08-06T20:11:09.333Z" },
+    "__v": 0
+  },
+  {
+    
+    "name": "Ruby on Rails",
+    "author": "Martinez",
+    "tags": ["ruby", "backend"],
+    "isPublished": true,
+    "date": { "$date": "2025-08-16T11:33:25.876Z" },
+    "__v": 0
+  },
+  {
+   
+    "name": "Data Science with Python",
+    "author": "Robinson",
+    "tags": ["python", "datascience"],
+    "isPublished": true,
+    "date": { "$date": "2025-07-31T15:55:19.222Z" },
+    "__v": 0
+  },
+  {
+    
+    "name": "Machine Learning",
+    "author": "Clark",
+    "tags": ["ml", "ai"],
+    "isPublished": true,
+    "date": { "$date": "2025-08-09T08:40:40.000Z" },
+    "__v": 0
+  }
+]

@@ -27,4 +27,46 @@ async function createCourse(){
     const result=await course.save();
     console.log(result);
     }
-createCourse();
+// createCourse();
+
+async function getCourses(){
+    const courses=await Course.find();
+    console.log(courses);
+}
+// getCourses();
+
+//Get All publish courses sort by their name pick only there name and author
+async function getPublishedCourses(){
+   const courses=await Course.find({isPublished:true})
+   .sort({name:1})
+   .select({name:1,author:1})
+   console.log(courses);
+}
+// getPublishedCourses();
+
+//get all published backend courses or frontend courses sort in decesending order by their  name pick only their name and author
+
+async function getPublishedCoursesByTags(){
+
+    // var courses=await Course.find({isPublished:true,tags:{$in:['backend','frontend']}})
+    var courses=await Course.find({isPublished:true})
+    .or([{tags:'backend'},{tags:'frontend'}])
+    .sort({name:-1})
+    .select({name:1,author:1})
+    console.log(courses);
+}
+//  getPublishedCoursesByTags();
+
+//update course
+async function updateCourse(id){
+    //approach 1: query first
+    const course=await Course.findById(id);
+    if(!course) return;
+    course.isPublished=true;
+    course.author='New Author';
+    const result=await course.save();
+    console.log(result);
+ 
+
+}
+updateCourse("68ab20c875fd3f03aad88f62");
